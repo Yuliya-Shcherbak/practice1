@@ -28,5 +28,14 @@ namespace SomeConsoleApp
         {
             return "Hello World!";
         }
+
+        public static string NowItsCyan()
+        {
+            string text = "Now it's Cyan! Enjoy!";
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Console.BackgroundColor = ConsoleColor.Cyan;
+            Console.Clear();
+            return text;
+        }
     }
 }
