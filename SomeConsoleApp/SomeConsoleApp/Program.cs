@@ -9,6 +9,7 @@ namespace SomeConsoleApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(SomeClass.NowItsCyan());
             Console.WriteLine(SomeClass.SayHello());
             Console.WriteLine("New number is: {0}", SomeClass.PrintSomeNumber());
             Console.ReadKey();
